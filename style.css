@@ -1,0 +1,197 @@
+
+*{
+    zoom: 100%;
+    max-width: 1500px;
+}
+body{
+    /*background-image: linear-gradient(
+    285deg,
+    hsl(206deg 69% 26%) 0%,
+    hsl(204deg 58% 28%) 7%,
+    hsl(202deg 47% 31%) 15%,
+    hsl(200deg 36% 33%) 23%,
+    hsl(198deg 27% 36%) 32%,
+    hsl(196deg 19% 39%) 42%,
+    hsl(188deg 32% 33%) 53%,
+    hsl(180deg 50% 26%) 64%,
+    hsl(171deg 79% 21%) 77%,
+    hsl(160deg 85% 19%) 89%,
+    hsl(136deg 58% 20%) 100%
+    );
+    background-size: 100%;*/
+    zoom: 100%;
+  /*  background-color: #000000; */
+    background-blend-mode: multiply;
+    max-width: 1500px;
+}
+.container{
+    width: 1450px;
+    height: 250px;
+    margin-left: 100px;
+}
+
+.row{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,99,121,1) 24%, rgba(0,212,255,1) 100%);
+    backface-visibility: calc();
+    opacity: 0.7;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px; 
+
+}
+.prostokat1{
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-width: 3.5px;
+    
+}
+.repertuar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.lista1 {
+    list-style-type: none;
+  }
+.kuchta{
+    height: 100px;
+    width: 180px;
+    filter: contrast(150%);
+}
+.miesiac{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.miesiac2{
+    margin-right: 200px;
+    color:white;
+    text-align: center;
+    vertical-align: 10px;
+    font-weight: 600;
+}
+.Dzeincal{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000;
+    text-decoration: none;
+    text-align: center;
+    height: 52px;
+    width: 40px;
+}
+.Dzeincal2{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000;
+    background-color: rgba(6, 89, 100, 0.936);
+    text-align: center;
+    text-decoration: none;
+    height: 52px;
+    width: 40px;
+    
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 15px;
+    background-color: rgba(3, 51, 57, 0.982);
+    border-radius: 10px;
+    width: 1200px;
+    filter: contrast(150%);
+
+}
+.container2{
+    width: 1240px;
+    height: 250px;
+    margin-left: 136px;
+    z-index: 1;
+    opacity: 0.75;
+}
+.fota{
+    position: absolute;
+    z-index: 0;
+    margin-left: 110px;
+    margin-top: -100px;
+    width: 1250px;
+    height: 700px;
+    pointer-events: none;
+    opacity: 0.5;
+    background-blend-mode: darken;
+}
+.repertuar1{
+    display: flex;
+    background-color: rgba(6, 89, 100, 0.936);
+    border-radius: 10px;
+    width: 1200px;
+    filter: contrast(150%);
+}
+.grid1{
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    
+}
+.chlopi{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+.chlopi:hover{
+    color: rgb(0, 242, 255);
+}
+.subtitle{
+    display: block;
+    font: 11px;
+    color: white;
+    margin-left: 10px;
+    width: 400px;
+}
+.repertuar2{
+    display: flex;
+    background-color: rgba(3, 51, 57, 0.982);
+    border-radius: 10px;
+    width: 1200px;
+    filter: contrast(150%);
+}
+.container1{
+    display: flex;
+}
+.row1{
+    margin-left: 120px;
+    width: 1040px;
+    height: 420px;
+}
+.row2{
+    width: 400px;
+    height: 420px;
+}
+.nav{
+    width: 400px;
+    height: 160px;
+}
+.nav1{
+    width: 400px;
+    height: 160px;
+}
+.nav2{
+    width: 400px;
+    height: 160px;
+}
+.row1zdj{
+    width: 1040px;
+    height: 420px;
+}
